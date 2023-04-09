@@ -45,3 +45,4 @@ This will crawl the studio's occupancy rate once a minute and save the data in `
 $ cd prediction/
 $ python3 main.py
 ```
+![image](https://user-images.githubusercontent.com/54217818/230766384-f8e29119-5a2d-445c-be61-00fa07b5499a.png)
