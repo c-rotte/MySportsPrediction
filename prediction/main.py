@@ -32,6 +32,7 @@ prophet = NeuralProphet(
     n_forecasts=horizon,
     n_lags=LAG_HOURS * MINUTES,
 )
+prophet.add_country_holidays(country_name='DE')
 metrics = prophet.fit(data, progress='plot', freq=f"{MINUTES}T")
 
 # (3) Predict the next day
